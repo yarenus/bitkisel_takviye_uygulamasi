@@ -1,0 +1,115 @@
+/* Genel stil ayarları */
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom right, #e8f5e9, #c8e6c9);
+    color: #1b5e20;
+  }
+  
+  /* Navigasyon çubuğu */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #e6f3e6;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    width: 32px;
+    margin-right: 10px;
+  }
+  
+  .logo-text {
+    font-size: 24px;
+    font-weight: 600;
+    color: #2e7d32;
+  }
+  
+  .navbar nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: 600;
+    color: #1b5e20;
+    transition: color 0.3s;
+  }
+  
+  .navbar nav a:hover {
+    color: #4caf50;
+  }
+  
+  /* Ana içerik alanı */
+  .content {
+    max-width: 900px;
+    margin: 50px auto;
+    text-align: center;
+    padding: 0 20px;
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .description {
+    font-size: 18px;
+    margin-bottom: 40px;
+    color: #2c6b2f;
+  }
+  
+  /* Kart konteyneri */
+  .card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+  
+  /* Kart stili */
+  .card {
+    background-color: #f1f8e9;
+    padding: 1.5rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, background-color 0.5s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    background-color: #dcedc8;
+  }
+  
+  .card h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .card p {
+    font-size: 16px;
+    color: #385e38;
+  }
+  
+  /* Geri dön butonu */
+  .back-button {
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #66bb6a;
+    color: white;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .back-button:hover {
+    background-color: #4caf50;
+  }
+  
